@@ -36,10 +36,12 @@
 						<h1>Research Software Engineers</h2>
 					</section>
 					<section>
-						<h2>RSE's were everywhere at SC16</h2>
+						<h2>RSE's were everywhere <br/>at SC16</h2>
 						<ul>
 							<li>Panels</li>
 							<li>Workshops</li>
+							<li>Papers</li>
+							<li>Exhibitor Booths</li>
 						</ul>
 					</section>
 					<section>
@@ -47,11 +49,165 @@
 						<ul>
 							<li>Advanced Cyberinfrastructure Research & Education Facilitators</li>
 							<li>Campus Research Computing Specialists</li>
-							<li></li>
+							<li>Software Development Specialist</li>
 							<li>...</li>
 						</ul>
 					</section>
+					<section>
+						<h2>RSE Talking Points</h2>
+						<ul>
+							<li>Career Opportunities</li>
+							<li>Recognition & Credit</li>
+							<li>Workforce Diversity</li>
+						</ul>
+					</section>
 				</section>
+				<section>
+					<section>
+						<h1>Testing</h1>
+					</section>
+					<section>
+						<h2>How do you test legacy HPC code efficiently?</h2>
+						<ul>
+							<li>Concurrent software testing</li>
+							<li>Mocking for parallel codes</li>
+							<li>Test Driven Design for HPC applications</li>
+							<li>Metamorphic Testing</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Automatic Test Generation</h2>
+						<ul>
+							<li><a href="http://conferences.computer.org/sehpccse/2016/papers/5224a001.pdf">
+								Towards Automatic and Flexible Unit Test Generation
+								for Legacy HPC Code (Hovy and Kunkel)</a></li>
+							<li>FortranTestGenerator tool</li>
+							<li>Capture and Replay</li>
+							<ul>
+								<li>Extracts data while running original application</li>
+								<li>Static code analysis to reduce captured variables</li>
+								<li>Generate unit tests based on data and templates</li>
+							</ul>
+							<li>Finds the places most likely to be affected by change,
+								and creates tests for them</li>
+							<li>Ongoing work to implement "mocking" for MPI</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Negative Results</h1>
+					</section>
+					<section>
+						<h2>Not the same as <br/>"Alternative Facts"</h2>
+					</section>
+					<section>
+						<h2>Negative Results</h2>
+						<ul>
+							<li>Lack of negative and neutral results in literature</li>
+							<li>Just as bad at Supercomputing</li>
+							<li>No incentive to share</li>
+							<li>State of Practice track may be a way</li>
+						</li>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Software XXX</h1>
+					</section>
+					<section>
+						<h2>Not the same as <br/>"XXX Software"</h2>
+					</section>
+					<section>
+						<h2>Software Citation</h2>
+						<ul>
+							<li><a href="https://doi.org/10.7717/peerj-cs.86">
+								Software Citation Principles have been published</a></li>
+							<li>How will this effect the HPC space?</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Software Repositories</h2>
+						<ul>
+							<li>Everyone's using GitHub ...</li>
+							<li>... but noone can agree how to publish, catalogue and advertise software</li>
+						</ul>
+					</section>
+					<section>
+						<h2>DOE Code</h2>
+						<ul>
+							<li><a href="https://www.osti.gov/doecode/">Major new investment
+								from DoE OSTI</a> to revamp existing system ...</li>
+							<li>... needed because it still asked people to specify number
+								of floppy disks</li>
+							<li>Will be interesting to see how this is used by
+								<a href="https://exascaleproject.org/">DoE Exascale
+								Computing Project</a> to publish outputs</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Software Metrics</h2>
+						<ul>
+							<li><a href="http://dl.acm.org/citation.cfm?id=3014918">
+								Development Effort Estimation in HPC (Wienke et al)</a></li>
+							<li>tl;dr: existing industry models don't apply to HPC</li>
+							<ul>
+								<li>Standard complexity metrics give widely varied results
+									because of widespread use of directives, optimising flags,
+									process binding etc.</li>
+								<li>Standard cost estimation models (e.g. COCOMO II) don't work
+									because of industry biases: effort split, team size, ranking of software
+									attributes</li>
+								<li>Wienke defines revised cost model for HPC focussed on
+									a performance life-cycle</li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Wee Archie</h1>
+					</section>
+					<section>
+						<h2>Everyone loves Wee Archie</h2>
+						<ul>
+							<li>But especially how we got it to display things</li>
+							<ul>
+								<li>LED matrices</li>
+								<li>Visualisation of simulation codes</li>
+							</ul>
+							<li>Potential for creating an education-focussed HPC toolkit and
+								API for instrumenting any code running on a Wee Archie style
+								system?</li>
+						</ul>
+					</section>
+
+				</section>
+				<section>
+					<section>
+						<h1>Any questions?</h1>
+					</section>
+					<section>
+						<h2>Links and Resources</h2>
+						<ul>
+							<li>SE4Science SEHPCCSE'16</li>
+							<ul>
+								<li>Website: <a href="http://se4science.org/workshops/sehpccse16/">
+									http://se4science.org/workshops/sehpccse16/</a></li>
+								<li>Proceedings: <a href="http://conferences.computer.org/sehpccse/2016">
+									http://conferences.computer.org/sehpccse/2016</a></li>
+							</ul>
+							<li>Software Engineering for Computational Science and Engineering on Supercomputers</li>
+							<ul>
+								<li>Website: <a href="https://cse-software.org/resources/events/2016-11-sc16-bof/">
+									https://cse-software.org/resources/events/2016-11-sc16-bof/</a></li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+
+
+
 			</div>
 		</div>
 
